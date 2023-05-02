@@ -36,7 +36,9 @@ Bubble Sort:
 
 [-9, -2, 0, 11, 45]
 
-Sorting in ascending order
+sorting in ascending order, comparing two values at any time. 
+The highest value is either moved to the second position or stays in the second position in the comparison, 
+after each loop, the highest value of the unsorted part will be moved to the end of the list
 """
 
 list = [-2, 45, 0, 11, -9]
